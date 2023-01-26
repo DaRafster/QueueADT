@@ -61,6 +61,10 @@ public:
 	int getSize() {
 		return size;
 	}
+
+	bool isEmpty() {
+		front == nullptr;
+	}
 private:
 	StackNode<T>* top;
 	int size;
